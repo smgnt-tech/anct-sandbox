@@ -1,0 +1,27 @@
+uuid: 003fd3fa-e825-424f-9aef-1800e678e759
+langcode: fr
+status: true
+dependencies:
+  module:
+    - layout_paragraphs
+id: anct_layouts
+label: 'Mise en page'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins:
+  layout_paragraphs:
+    enabled: true
+    available_layouts:
+      dsfr_grid_row_1: 'Grid row (1 col) [dsfr]'
+      layout_onecol: 'One column'
+      dsfr_grid_row_2: 'Grid row (2 cols) [dsfr]'
+      layout_twocol_section: 'Two column'
+      layout_twocol: 'Two column'
+      layout_twocol_bricks: 'Two column bricks'
+      dsfr_grid_row_3: 'Grid row (3 cols) [dsfr]'
+      layout_threecol_section: 'Three column'
+      layout_threecol_25_50_25: 'Three column 25/50/25'
+      layout_threecol_33_34_33: 'Three column 33/34/33'
+      layout_fourcol_section: 'Four column'
+      dsfr_grid_row_4: 'Grid row (4 cols) [dsfr]'

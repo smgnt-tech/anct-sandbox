@@ -1,0 +1,24 @@
+uuid: a4f7b299-c1db-45f4-ba8e-39d07ba14f3b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.anct_ckeditor.field_admin_text
+    - field.field.paragraph.anct_ckeditor.field_ckeditor
+    - paragraphs.paragraphs_type.anct_ckeditor
+  module:
+    - text
+id: paragraph.anct_ckeditor.default
+targetEntityType: paragraph
+bundle: anct_ckeditor
+mode: default
+content:
+  field_ckeditor:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_admin_text: true

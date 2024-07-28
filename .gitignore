@@ -1,0 +1,35 @@
+# Ignore the vendor directory
+vendor
+
+# Ignore ddev configuration files and the .ddev directory
+.ddev/*
+!.ddev/config.yaml
+
+# Ignore Drupal directories
+web/core/
+web/modules/
+web/themes/contrib/
+web/themes/README.txt
+web/profiles/
+web/libraries/
+web/sites/development.services.yml
+web/sites/example.settings.local.php
+web/sites/example.sites.php
+web/sites/README.txt
+web/sites/default/*
+!web/sites/default/settings.php
+
+# Ignore Drupal files
+web/.csslintrc
+web/.eslintignore
+web/.eslintrc.json
+web/.ht.router.php
+web/.htaccess
+web/autoload.php
+web/example.gitignore
+web/index.php
+web/INSTALL.txt
+web/README.md
+web/robots.txt
+web/update.php
+web/web.config

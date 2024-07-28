@@ -1,0 +1,19 @@
+uuid: 9ae74470-e33e-4f19-aa17-3ba4ee9dc013
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.anct_follow
+    - field.storage.block_content.field_newsletter_title
+id: block_content.anct_follow.field_newsletter_title
+field_name: field_newsletter_title
+entity_type: block_content
+bundle: anct_follow
+label: 'Titre newsletter'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

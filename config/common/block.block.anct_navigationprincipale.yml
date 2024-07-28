@@ -1,0 +1,25 @@
+uuid: fe3cdad7-ae8f-4363-9df8-3b326987063f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - anct
+id: anct_navigationprincipale
+theme: anct
+region: header_navbar
+weight: -3
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Navigation principale'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

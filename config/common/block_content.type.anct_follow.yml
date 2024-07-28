@@ -1,0 +1,8 @@
+uuid: 13a2a328-c620-4824-8ad0-9d02ee9ad6e6
+langcode: fr
+status: true
+dependencies: {  }
+id: anct_follow
+label: 'Bloc suivez-nous'
+revision: false
+description: null

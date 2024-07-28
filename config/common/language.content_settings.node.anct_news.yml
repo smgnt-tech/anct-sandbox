@@ -1,0 +1,11 @@
+uuid: 84a9a68b-8dd9-4740-9230-73fde500c2b8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.anct_news
+id: node.anct_news
+target_entity_type_id: node
+target_bundle: anct_news
+default_langcode: site_default
+language_alterable: false

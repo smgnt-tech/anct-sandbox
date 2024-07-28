@@ -1,0 +1,47 @@
+uuid: d6a16534-f877-4095-ab76-6d18c277d749
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.anct_news.field_media
+    - field.field.node.anct_news.field_summary
+    - field.field.node.anct_news.field_text_formated_long
+    - node.type.anct_news
+  module:
+    - text
+    - user
+id: node.anct_news.default
+targetEntityType: node
+bundle: anct_news
+mode: default
+content:
+  field_media:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_summary:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_text_formated_long:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,8 @@
+uuid: 84315420-bf74-4322-bac8-478250028fc9
+langcode: fr
+status: true
+dependencies: {  }
+id: secondary
+label: 'Menu secondaire'
+description: ''
+locked: false

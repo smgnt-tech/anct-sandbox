@@ -1,0 +1,19 @@
+uuid: cf1e9db9-120a-4409-89cf-39bd92b42615
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_newsletter_title
+    - paragraphs.paragraphs_type.anct_follow
+id: paragraph.anct_follow.field_newsletter_title
+field_name: field_newsletter_title
+entity_type: paragraph
+bundle: anct_follow
+label: 'Titre newsletter'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

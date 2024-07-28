@@ -1,0 +1,11 @@
+uuid: ef76b430-0367-49c8-abb2-71e25f2b6d86
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.anct_content_page
+id: node.anct_content_page
+target_entity_type_id: node
+target_bundle: anct_content_page
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,13 @@
+uuid: eea26197-0df2-4946-af86-d0d2f4868d1f
+langcode: fr
+status: false
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: QJ2aZ1xfVf59aq6Pz5X7fyUOa2HxuCoTwQ_RQjoulAU
+id: node.full
+label: 'Contenu complet'
+description: ''
+targetEntityType: node
+cache: true

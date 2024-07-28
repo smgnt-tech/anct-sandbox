@@ -1,0 +1,8 @@
+uuid: 04362ca3-c75a-4b37-b715-4156f3ab3a95
+langcode: fr
+status: true
+dependencies: {  }
+id: bloc_paragraph
+label: 'Bloc paragraph'
+revision: false
+description: null

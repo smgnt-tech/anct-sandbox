@@ -1,0 +1,45 @@
+uuid: 381c5174-8940-475a-87b8-785f5d9e3c39
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.anct_follow
+    - field.field.block_content.anct_follow.field_newsletter_title
+    - field.field.block_content.anct_follow.field_social_title
+id: block_content.anct_follow.default
+targetEntityType: block_content
+bundle: anct_follow
+mode: default
+content:
+  field_newsletter_title:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_social_title:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

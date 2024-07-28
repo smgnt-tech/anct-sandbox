@@ -1,0 +1,74 @@
+uuid: f228eba8-86d0-4ba8-8d34-185fd7fb3b90
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.anct_news.field_media
+    - field.field.node.anct_news.field_summary
+    - field.field.node.anct_news.field_text_formated_long
+    - image.style.thumbnail
+    - node.type.anct_news
+  module:
+    - ds
+    - media
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: pattern_card
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        pattern:
+          field_templates: default
+          variant: default
+          settings:
+            horizontal_ratio: ''
+            enlarge_link: 0
+            no_arrow: 0
+            bg_boxes: ''
+            title_tag: ''
+            detail_icon: ''
+            detail_end_icon: ''
+    regions:
+      image:
+        - field_media
+      title:
+        - node_title
+      description:
+        - field_summary
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 1
+        label: hidden
+        formatter: default
+id: node.anct_news.teaser
+targetEntityType: node
+bundle: anct_news
+mode: teaser
+content:
+  field_media:
+    type: media_thumbnail
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: image
+  field_summary:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: description
+hidden:
+  field_text_formated_long: true
+  langcode: true
+  links: true

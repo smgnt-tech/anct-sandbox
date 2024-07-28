@@ -1,0 +1,5 @@
+name: ANCT Settings
+description: "Provide custom settings for ACNCT"
+type: module
+core_version_requirement: ">=10.3"
+package: Custom

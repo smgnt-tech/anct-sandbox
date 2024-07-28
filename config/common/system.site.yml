@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: fr
+uuid: 728342e2-2d00-4810-bfa0-ed4fe97e9a5e
+name: ANCT
+mail: admin@example.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /homepage
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: fr
+mail_notification: null

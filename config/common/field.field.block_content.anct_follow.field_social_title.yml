@@ -1,0 +1,19 @@
+uuid: ec4a0a9f-c8c9-44b7-ac26-6b2d14a06734
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.anct_follow
+    - field.storage.block_content.field_social_title
+id: block_content.anct_follow.field_social_title
+field_name: field_social_title
+entity_type: block_content
+bundle: anct_follow
+label: 'Titre réseaux sociaux'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

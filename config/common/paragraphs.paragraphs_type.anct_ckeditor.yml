@@ -1,0 +1,10 @@
+uuid: d5ad8b67-d9b3-4d5a-ae9c-abfb7f41a820
+langcode: fr
+status: true
+dependencies: {  }
+id: anct_ckeditor
+label: 'Éditeur de texte'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

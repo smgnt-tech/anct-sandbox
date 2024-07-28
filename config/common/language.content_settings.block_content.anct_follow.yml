@@ -1,0 +1,11 @@
+uuid: c65c5f2c-455e-46b4-ad23-3a3e4c95fc26
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.anct_follow
+id: block_content.anct_follow
+target_entity_type_id: block_content
+target_bundle: anct_follow
+default_langcode: site_default
+language_alterable: false

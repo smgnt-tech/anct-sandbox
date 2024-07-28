@@ -1,0 +1,30 @@
+uuid: d05d8bc9-46ff-437e-b7e3-e3ab50784dce
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.anct_ckeditor.field_admin_text
+    - field.field.paragraph.anct_ckeditor.field_ckeditor
+    - paragraphs.paragraphs_type.anct_ckeditor
+  module:
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: paragraph.anct_ckeditor.preview
+targetEntityType: paragraph
+bundle: anct_ckeditor
+mode: preview
+content:
+  field_admin_text:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_ckeditor: true

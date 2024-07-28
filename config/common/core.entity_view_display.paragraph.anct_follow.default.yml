@@ -1,0 +1,61 @@
+uuid: 12bfc17c-a726-4602-94d1-12ad49474ea6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.anct_follow.field_label
+    - field.field.paragraph.anct_follow.field_newsletter_title
+    - field.field.paragraph.anct_follow.field_social_title
+    - paragraphs.paragraphs_type.anct_follow
+  module:
+    - ds
+third_party_settings:
+  ds:
+    layout:
+      id: pattern_follow
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        pattern:
+          field_templates: default
+          settings:
+            title_tag: ''
+            follow_title_tag: ''
+    regions:
+      social_title:
+        - field_label
+      newsletter_title:
+        - field_social_title
+      newsletter_body:
+        - field_newsletter_title
+id: paragraph.anct_follow.default
+targetEntityType: paragraph
+bundle: anct_follow
+mode: default
+content:
+  field_label:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: social_title
+  field_newsletter_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: newsletter_body
+  field_social_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: newsletter_title
+hidden: {  }

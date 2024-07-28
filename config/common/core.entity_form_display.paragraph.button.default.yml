@@ -1,0 +1,23 @@
+uuid: 865ca492-bfb1-490d-9b19-10bfa67178ac
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.button.field_label
+    - paragraphs.paragraphs_type.button
+id: paragraph.button.default
+targetEntityType: paragraph
+bundle: button
+mode: default
+content:
+  field_label:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

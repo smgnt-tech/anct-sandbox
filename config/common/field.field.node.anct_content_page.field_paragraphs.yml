@@ -1,0 +1,50 @@
+uuid: 7e8be822-9f55-4663-8d39-1659e6046507
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraphs
+    - node.type.anct_content_page
+    - paragraphs.paragraphs_type.anct_accordion_group
+    - paragraphs.paragraphs_type.anct_ckeditor
+    - paragraphs.paragraphs_type.anct_layouts
+  module:
+    - entity_reference_revisions
+id: node.anct_content_page.field_paragraphs
+field_name: field_paragraphs
+entity_type: node
+bundle: anct_content_page
+label: Section(s)
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      anct_accordion_group: anct_accordion_group
+      anct_ckeditor: anct_ckeditor
+      anct_layouts: anct_layouts
+    negate: 0
+    target_bundles_drag_drop:
+      anct_accordion:
+        weight: 5
+        enabled: false
+      anct_accordion_group:
+        weight: 6
+        enabled: true
+      anct_ckeditor:
+        weight: 9
+        enabled: true
+      anct_follow:
+        weight: 7
+        enabled: false
+      anct_layouts:
+        weight: 9
+        enabled: true
+      button:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions

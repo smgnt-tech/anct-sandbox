@@ -1,0 +1,24 @@
+uuid: 3c192d4c-7741-444c-926f-34bd875e8f28
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ckeditor
+    - filter.format.basic_html
+    - paragraphs.paragraphs_type.anct_ckeditor
+  module:
+    - text
+id: paragraph.anct_ckeditor.field_ckeditor
+field_name: field_ckeditor
+entity_type: paragraph
+bundle: anct_ckeditor
+label: 'Éditeur de texte'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

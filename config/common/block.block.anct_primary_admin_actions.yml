@@ -1,0 +1,20 @@
+uuid: 08c621a7-b3db-44d5-b46c-b27e6ae1914e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - anct
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: anct_primary_admin_actions
+theme: anct
+region: header_operator_logo
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

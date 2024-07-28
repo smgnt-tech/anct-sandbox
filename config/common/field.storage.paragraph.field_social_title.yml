@@ -1,0 +1,21 @@
+uuid: 2cfdc81d-3e81-4367-b217-08f9f5a9cb92
+langcode: fr
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_social_title
+field_name: field_social_title
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

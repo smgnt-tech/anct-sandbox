@@ -1,0 +1,22 @@
+uuid: d19fe31f-73e0-4476-8706-494bbcb980de
+langcode: en
+status: true
+dependencies:
+  theme:
+    - anct
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: anct_secondary_local_tasks
+theme: anct
+region: content
+weight: -1
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

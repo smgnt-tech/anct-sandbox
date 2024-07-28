@@ -1,0 +1,49 @@
+uuid: 4b64cc48-e797-4eaa-813d-bb7702842185
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.anct_accordion.field_accordion_content
+    - field.field.paragraph.anct_accordion.field_accordion_title
+    - paragraphs.paragraphs_type.anct_accordion
+  module:
+    - ds
+    - text
+third_party_settings:
+  ds:
+    layout:
+      id: pattern_accordion
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        pattern:
+          field_templates: default
+          settings:
+            title_tag: ''
+    regions:
+      title:
+        - field_accordion_title
+      content:
+        - field_accordion_content
+id: paragraph.anct_accordion.default
+targetEntityType: paragraph
+bundle: anct_accordion
+mode: default
+content:
+  field_accordion_content:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_accordion_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: title
+hidden: {  }

@@ -1,0 +1,21 @@
+uuid: 17b2fe15-915e-4423-9cc3-1783e35cae04
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.button.field_label
+    - paragraphs.paragraphs_type.button
+id: paragraph.button.default
+targetEntityType: paragraph
+bundle: button
+mode: default
+content:
+  field_label:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

@@ -1,0 +1,10 @@
+uuid: 738ca480-f390-41e2-8c72-f568f2761867
+langcode: fr
+status: true
+dependencies: {  }
+id: anct_accordion
+label: Accordéon
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,25 @@
+uuid: 8fe59963-a20b-4340-bf3d-b30440eefda6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - ui_suite_dsfr
+id: ui_suite_dsfr_navigationprincipale
+theme: ui_suite_dsfr
+region: header_navbar
+weight: -3
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Navigation principale'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

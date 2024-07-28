@@ -1,0 +1,23 @@
+uuid: 8de56ced-ebe8-4c79-9f0e-137c040360e9
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ui_suite_dsfr
+id: ui_suite_dsfr_identitedusite
+theme: ui_suite_dsfr
+region: footer_operator_logo
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Identité du site'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

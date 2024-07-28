@@ -1,0 +1,34 @@
+uuid: bc38d53b-b08a-4127-b51f-8b2eef2e7a90
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.anct_ckeditor.field_admin_text
+    - field.field.paragraph.anct_ckeditor.field_ckeditor
+    - paragraphs.paragraphs_type.anct_ckeditor
+  module:
+    - text
+id: paragraph.anct_ckeditor.default
+targetEntityType: paragraph
+bundle: anct_ckeditor
+mode: default
+content:
+  field_admin_text:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ckeditor:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

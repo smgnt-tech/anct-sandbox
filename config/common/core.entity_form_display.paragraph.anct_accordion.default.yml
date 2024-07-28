@@ -1,0 +1,34 @@
+uuid: c80c01fb-ee66-4b7d-9aa7-c878c541d3df
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.anct_accordion.field_accordion_content
+    - field.field.paragraph.anct_accordion.field_accordion_title
+    - paragraphs.paragraphs_type.anct_accordion
+  module:
+    - text
+id: paragraph.anct_accordion.default
+targetEntityType: paragraph
+bundle: anct_accordion
+mode: default
+content:
+  field_accordion_content:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_accordion_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

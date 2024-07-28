@@ -1,0 +1,22 @@
+uuid: a160d09a-3cd7-4cf1-9b28-a49e4eb9cb1c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - anct
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: anct_primary_local_tasks
+theme: anct
+region: content
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

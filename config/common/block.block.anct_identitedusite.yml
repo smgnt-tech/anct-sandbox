@@ -1,0 +1,34 @@
+uuid: b7975122-b287-42b7-8933-fd77295b7f58
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - anct
+third_party_settings:
+  ui_styles:
+    block:
+      selected: {  }
+      extra: ''
+    title:
+      selected: {  }
+      extra: ''
+    content:
+      selected: {  }
+      extra: ''
+id: anct_identitedusite
+theme: anct
+region: footer_operator_logo
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Identité du site'
+  label_display: '0'
+  provider: system
+  use_site_logo: false
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

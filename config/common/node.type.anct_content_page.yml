@@ -1,0 +1,18 @@
+uuid: a5d37ee9-a73e-49eb-9497-8962a6b26688
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Page de contenu'
+type: anct_content_page
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

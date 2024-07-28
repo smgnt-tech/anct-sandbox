@@ -1,0 +1,41 @@
+uuid: 9c06e12b-6e45-4960-96e1-af75103165d2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.anct_follow.field_label
+    - field.field.paragraph.anct_follow.field_newsletter_title
+    - field.field.paragraph.anct_follow.field_social_title
+    - paragraphs.paragraphs_type.anct_follow
+id: paragraph.anct_follow.default
+targetEntityType: paragraph
+bundle: anct_follow
+mode: default
+content:
+  field_label:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_newsletter_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_social_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

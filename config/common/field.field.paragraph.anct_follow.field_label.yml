@@ -1,0 +1,19 @@
+uuid: 4a8336f3-29a9-475d-9eee-d71996ff4b88
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_label
+    - paragraphs.paragraphs_type.anct_follow
+id: paragraph.anct_follow.field_label
+field_name: field_label
+entity_type: paragraph
+bundle: anct_follow
+label: Label
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

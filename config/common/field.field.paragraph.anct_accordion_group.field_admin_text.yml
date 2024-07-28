@@ -1,0 +1,19 @@
+uuid: 24240394-5087-411c-9c01-0e9c02080fba
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_admin_text
+    - paragraphs.paragraphs_type.anct_accordion_group
+id: paragraph.anct_accordion_group.field_admin_text
+field_name: field_admin_text
+entity_type: paragraph
+bundle: anct_accordion_group
+label: 'Nom du bloc'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

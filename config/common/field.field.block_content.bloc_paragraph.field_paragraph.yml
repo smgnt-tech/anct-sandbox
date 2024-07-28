@@ -1,0 +1,25 @@
+uuid: e86a4858-ec07-4083-b1a7-9f47929374af
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.bloc_paragraph
+    - field.storage.block_content.field_paragraph
+  module:
+    - entity_reference_revisions
+id: block_content.bloc_paragraph.field_paragraph
+field_name: field_paragraph
+entity_type: block_content
+bundle: bloc_paragraph
+label: Paragraphe
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    negate: 0
+field_type: entity_reference_revisions

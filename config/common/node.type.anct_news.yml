@@ -1,0 +1,18 @@
+uuid: da75a1cf-e93b-4ee1-b054-0aed719c4589
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Actualité
+type: anct_news
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

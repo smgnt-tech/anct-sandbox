@@ -1,0 +1,19 @@
+uuid: 2f05db14-b405-4f99-9d11-9e538ade9c35
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_summary
+    - node.type.anct_news
+id: node.anct_news.field_summary
+field_name: field_summary
+entity_type: node
+bundle: anct_news
+label: Résumé
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

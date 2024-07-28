@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * @file
+ * Contains anct_settings.module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function anct_settings_theme($existing, $type, $theme, $path) {
+  $templates = [];
+
+  // Overide paragraphs preview.
+  $templates['paragraph__preview'] = [
+    'template' => 'paragraph--preview',
+    'base hook' => 'paragraph',
+    'path' => $path . '/templates',
+  ];
+
+  return $templates;
+}
+
+/**
+ * Implements hook_page_attachments().
+ */
+function anct_settings_page_attachments(array &$attachments) {
+  if (\Drupal::service('router.admin_context')->isAdminRoute()) {
+    $attachments['#attached']['library'][] = 'anct/paragraphs';
+  }
+}

@@ -1,0 +1,10 @@
+uuid: e334b3db-9d07-43e7-ad54-8abcba7389b3
+langcode: fr
+status: true
+dependencies: {  }
+id: anct_follow
+label: Suivre
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,20 @@
+uuid: 1f8d97c9-e660-4f02-8e01-5d12bee78a95
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ui_suite_dsfr
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: ui_suite_dsfr_primary_admin_actions
+theme: ui_suite_dsfr
+region: header_operator_logo
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

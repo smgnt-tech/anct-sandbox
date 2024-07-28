@@ -1,0 +1,5 @@
+# Paragraphs
+paragraphs:
+  css:
+    component:
+      src/css/paragraphs.css: {}

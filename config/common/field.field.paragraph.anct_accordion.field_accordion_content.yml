@@ -1,0 +1,24 @@
+uuid: 21f0e70e-cf2b-45a0-a523-3f4c5411df40
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_accordion_content
+    - filter.format.basic_html
+    - paragraphs.paragraphs_type.anct_accordion
+  module:
+    - text
+id: paragraph.anct_accordion.field_accordion_content
+field_name: field_accordion_content
+entity_type: paragraph
+bundle: anct_accordion
+label: Contenu
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long
